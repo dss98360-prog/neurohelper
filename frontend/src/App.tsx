@@ -31,7 +31,7 @@ function App() {
     setAnswer('')
 
     try {
-      const response = await fetch('/api/ask', {
+      const response = await fetch('https://neurohelper.onrender.com/api/ask', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
